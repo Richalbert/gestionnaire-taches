@@ -14,8 +14,8 @@
 #include "task.h"
 
 void print_task(const Task *task) {
-	printf("ID: %d | Description: %s | Status: %s\n",
-			task->id, 
-			task->description, 
-			task->completed ? "Completed" : "Pending");
-}	
+    printf("ID: %d | Description: %s | Status: %s\n",
+        task->id, 
+        task->description, 
+        task->completed ? "Completed" : "Pending");
+}

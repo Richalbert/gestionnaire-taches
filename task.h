@@ -14,13 +14,11 @@
 #define TASK_H
 
 typedef struct {
-	int id;			// Identifiant unique de la tache
-	char description[256];	// Description de la tache
-	int completed;		// 0 = non termine, 1 = termine
+    int id;                 // Identifiant unique de la tache
+    char description[256];  // Description de la tache
+    int completed;	        // 0 = non termine, 1 = termine
 } Task;
 
 void print_task(const Task *task);
 
 #endif /* TASK_H */
-
-
