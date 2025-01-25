@@ -12,10 +12,14 @@ Jour 1 : Base du Projet
 
 Jour 2: Gestion dynamique des taches
 
-Objectifs:
-
 1. Ajouter des taches dynamiquement via une fonction
 2. Utiliser un tableau dynamique pour stocker les taches
 3. Ajouter une fonction pour afficher toutes les taches
 
 
+
+Jour 3: Sauvegarde et chargement des taches
+
+1. Sauvegarder les taches dans un fichier texte
+2. Charger les taches depuis ce fichier lors du demarrage du programme
+3. Permettre a l'utilisateur d'effectuer des modifications
